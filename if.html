@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar with Button</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <style>
+      /* Basic CSS Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Style for the search bar container */
+      .search-container {
+        display: flex;
+        align-items: center;
+        background-color: #f2f2f2;
+        border-radius: 20px;
+        overflow: hidden;
+        max-width: 400px; /* Adjust the maximum width as needed */
+      }
+
+      /* Style for the search input */
+      .search-input {
+        border: none;
+        padding: 10px;
+        width: 100%;
+        outline: none;
+        font-size: 16px;
+      }
+
+      /* Style for the search button */
+      .search-button {
+        background-color: #007bff; /* Button background color */
+        color: white; /* Button text color */
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      /* Style for the search icon */
+      .search-icon {
+        color: #666;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-container">
+      <!-- <i class="fas fa-search search-icon"></i> -->
+      <input type="text" class="search-input" placeholder="Search..." />
+      <button class="search-button">
+        <i class="fas fa-search search-icon"></i>
+      </button>
+    </div>
+  </body>
+</html>
